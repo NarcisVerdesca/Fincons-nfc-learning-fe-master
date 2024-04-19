@@ -1,0 +1,67 @@
+
+.titleMyCourses{
+    font-weight: 300;
+    color:#7e4ee5;
+}
+
+.containerDedicatedCourse {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.containerCardDedicatedCourse {
+    margin-top: 2em;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 5em;
+}
+
+.cardDedicatedCourse {
+    width: 90%;
+    height: 20em;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px #804DF0;
+    transition: transform 0.3s;
+}
+
+.cardDedicatedCourse:hover {
+    transform: scale(1.02);
+    box-shadow: 12px 12px 12px #804DF0;
+}
+
+.containerTitleDedicatedCourse {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.containerImgCardDedicatedCourse {
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+
+.imgCardDedicatedCourse {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.titleCardDedicatedCourse{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.realTitleCard{
+    font-weight: 100;
+}

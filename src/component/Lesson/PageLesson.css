@@ -1,0 +1,99 @@
+.containerPageLesson{
+    margin-top: 6em;
+    height: 100em;
+}
+
+.containerTitlePageLesson{
+    margin-left: 5em;
+}
+
+.bodyLesson{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.containerContentsLesson{
+    height: 25em;
+    width: 50em;
+    margin-top: 2em;
+    border: 2px solid black;
+}
+
+.containerQuizOfLesson {
+     border: 1px solid black;
+     
+  
+}
+
+.iFrameContent{
+    width: 100%;
+    height: 100%;
+}
+
+.containerListLessons{
+    width: 30em;
+    height: 40em;
+    margin-top: 2em;
+}
+
+.cardPageLesson{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 8em;
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.9s;
+}
+
+.cardPageLesson:hover{
+    transform: scale(1.1);
+}
+
+.containerImageLesson{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imageLesson{
+    height: 100%;
+}
+
+.containerTitleLesson{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: larger;
+}
+
+.titleLesson{
+    margin-left: 2em;
+}
+.buttonBack {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    color: #804DF0;
+    transition: transform 0.6s;
+    margin-left: 4.5em;
+    width: 5em;
+    border: 2px solid #804DF0;
+    border-radius: 15px;
+}
+.buttonBack:hover{
+
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+    transform: scale(1.05);
+}

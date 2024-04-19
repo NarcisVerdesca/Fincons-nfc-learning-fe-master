@@ -1,0 +1,41 @@
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.modalBody{
+    align-items: center;
+}
+
+.buttonDefault{
+    border: none;
+    cursor: pointer;
+    padding: 0%;
+    border-radius: 12px;
+    outline-offset: 4px;
+}
+
+.buttonModal{
+    background-color: #8b8ed6;
+    color: #0E111E;
+}
+
+.frontDefault{
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1rem;
+    min-width: 15em;
+    transform: translateY(-6px);
+}
+
+.front{
+    background-color: #DCDDFC;
+    color: #0E111E;
+}
+
+.buttonModal:active .front{
+    transform: translateY(0px)
+}

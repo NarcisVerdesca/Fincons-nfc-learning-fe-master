@@ -1,0 +1,59 @@
+.border-red-500 {
+  border: 1px solid #ff0000;
+}
+
+.containerButtonModal {
+  justify-content: center;
+  display: flex
+}
+
+.buttonCheck {
+  margin-top: 1em;
+  margin-right: 1em;
+  background-color: #8b8ed6;
+  color: #0E111E;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 12px;
+  outline-offset: 4px;
+}
+
+.frontCheck{
+  display: block;
+  border-radius: 12px;
+  padding: 6px 21px;
+  transform: translateY(-6px);
+  background-color: #DCDDFC;
+}
+.buttonCheck:active .frontCheck, .buttonReturn:active .frontReturn{
+  transform: translateY(0px);
+}
+.buttonReturn{
+  margin-top: 1em;
+  margin-right: 1em;
+  background-color: #505879;
+  color: #DCDDFC;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 12px;
+  outline-offset: 4px;
+}
+.frontReturn{
+  display: block;
+  border-radius: 12px;
+  padding: 6px 21px;
+  transform: translateY(-6px);
+  background-color:#0E111E;
+}
+.titleModal{
+  color:#8b8ed6;
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+}
+.labelModal{
+  color: #8b8ed6;
+  font-weight: 700;
+}

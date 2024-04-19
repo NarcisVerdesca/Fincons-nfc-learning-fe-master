@@ -1,0 +1,103 @@
+
+.containerCardLoginRegister{
+    background-image: url("../../assets/wallpaper.jpeg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTitle{
+    margin-top: 1em;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: white;
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+
+.card.flip {
+    transform: rotateY(180deg);
+}
+
+.card__face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__face--front {
+    transform: rotateY(0deg);
+}
+
+.card__face--back {
+    transform: rotateY(-180deg);
+}
+
+.containerButtonSelectForm{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonSelectForm{
+    background-color: white;
+    border: 2px solid black;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 25px;
+    margin-bottom: 0.5em;
+}
+
+.buttonSelectForm:hover{
+    background-color: grey;
+    color: white;
+}
+
+.flip-vertical-left {
+    -webkit-animation: flip-vertical-left 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: flip-vertical-left 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+@-webkit-keyframes flip-vertical-left {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+    }
+
+    100% {
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+    }
+}
+
+@keyframes flip-vertical-left {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+    }
+
+    100% {
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+    }
+}
